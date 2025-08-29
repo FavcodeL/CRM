@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterling Bank - Irrevocable Debt Mandate and Investment Advice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .letter-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            min-height: 100vh;
+        }
+        
+        /* Header Section */
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom:-10px;
+        }
+
+        .header1 img {
+            width: 100%;
+            height: 80px;
+            margin-top: -100px;
+            margin-left:20px;
+        }
+
+        .header2 img {
+            width: 140%;
+            height: 250px;
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+        
+        .bank-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .bank-address {
+            margin-top: 0px;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+            margin-left: 30px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .date {
+            text-align: right;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        .greeting {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        .subject {
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            text-align: left;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 15px 0;
+        }
+        
+        .paragraph {
+            margin-bottom: 25px;
+            text-align: justify;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        
+        .section-header {
+            font-weight: bold;
+            margin: 30px 0 10px 0;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        
+        .numbered-list {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        
+        .numbered-item {
+            margin-bottom: 20px;
+            padding-left: 30px;
+            position: relative;
+            text-align: justify;
+            line-height: 1.7;
+        }
+        
+        .numbered-item::before {
+            content: counter(item) ".";
+            counter-increment: item;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-weight: bold;
+        }
+        
+        .numbered-list {
+            counter-reset: item;
+        }
+        
+        .checkbox-section {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            cursor: pointer;
+        }
+        
+        .checkbox {
+            width: 18px;
+            height: 18px;
+            border: 2px solid #dc3545;
+            margin-right: 10px;
+            position: relative;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+        
+        .checkbox.checked::after {
+            content: '✓';
+            position: absolute;
+            left: 2px;
+            top: -2px;
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 100px;
+            color: rgba(220, 53, 69, 0.03);
+            font-weight: bold;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .content-layer {
+            position: relative;
+            z-index: 2;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            .letter-container {
+                box-shadow: none;
+            }
+            
+            .watermark {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .bank-name {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="watermark">STERLING</div>
+    <div class="letter-container">
+        <div class="content-layer">
+           <header class="header">
+            <div class="header1">
+                <img src="https://github.com/FavcodeL/CRM/raw/master/logo.png" alt="Sterling Bank Logo" />
+            </div>
+            <div class="header2">
+                <img src="https://github.com/FavcodeL/CRM/raw/master/Group%201000002206.png" alt="Sterling Bank Header" />
+            </div>
+        </header>
+                <div class="bank-address">
+                    The Managing Director,<br>
+                    Sterling Bank Limited<br>
+                    20, Marina<br>
+                    Lagos, Nigeria.
+                </div>
+            </div>
+            
+            <div class="content">
+                <div class="greeting">Dear [Customer Name],</div>
+                
+                <div class="subject">
+                    IRREVOCABLE DEBIT MANDATE AND INVESTMENT ADVICE FOR INVESTMENT PRODUCT
+                </div>
+                
+                <div class="paragraph">
+                    I, [Customer's Full Name], the holder of Current/Savings Account Number [Account Number] domiciled with Sterling Bank Limited (the "Bank") (hereinafter referred to as the "Funding Account"), hereby issue this irrevocable mandate and investment advice on ……………. Day of …………. 202…...
+                </div>
+                
+                <div class="section-header">WHEREAS:</div>
+                
+                <div class="paragraph">
+                    I am desirous of investing idle funds domiciled in my Funding Account through your investment scheme and understand that as a licensed bank, you require my express written authorization to debit my account for this specific purpose.
+                </div>
+                
+                <div class="paragraph">
+                    <strong>NOW THEREFORE</strong>  I hereby request, authorize, and instruct Sterling Bank Limited to debit my aforementioned Funding Account with the sum of N……………………. (Amount in words).
+                </div>
+                
+                <div class="numbered-list">
+                    <div class="numbered-item">
+                        It is my express instruction that the proceeds from this debit be invested immediately into the investment product for a fixed tenor of [30] days. The investment shall be managed by SterlingFI Wealth Management Limited or its appointed associates in accordance with the product's prevailing terms and conditions, which I acknowledge having read and understood.
+                    </div>
+                    
+                    <div class="numbered-item">
+                        Upon maturity of the investment, you are hereby instructed to credit the entire proceeds, comprising the principal and accrued interest, directly back to my Funding Account above, except as otherwise authorized instructed by me.
+                    </div>
+                    
+                    <div class="numbered-item">
+                        By clicking the "I Agree and Authorize" button below, I hereby provide my electronic signature. I confirm that this digital authorization constitutes my express consent, is legally binding, and is equivalent to a physical signature for all purposes under applicable law.
+                    </div>
+                    
+                    <div class="numbered-item">
+                        I undertake that I am the sole signatory to the Funding Account and that sufficient cleared funds will be available to cover this debit instruction. I understand that this mandate is specific to this investment instruction and that details of this transaction will appear on my account statement. This instruction shall remain in full force until the investment transaction is completed or until I revoke it in writing. 
+                    </div>
+                </div>
+                
+                <div class="paragraph">
+                    I undertake that I am the sole signatory to the account and that sufficient cleared funds will be available to cover this debit. I confirm that I have read, understood, and agreed to the Investment.<br>
+                    <a style="color:red; text-decoration: underline;">Terms and Conditions.</a>
+                </div>
+                
+                <div class="paragraph">
+                    Please accept this letter as my formal and binding authorization.
+                </div>
+                
+                <div class="signature-section">
+                    <div class="paragraph">
+                        By clicking the "I Agree and Authorize" button below, I hereby provide my electronic signature. I confirm that this digital authorization constitutes my express consent, is legally binding, and is equivalent to a physical signature for all purposes under applicable law
+                    </div>
+                    
+                    <div class="checkbox-section" onclick="toggleCheckbox()">
+                        <div class="checkbox" id="agreeCheckbox"></div>
+                        <span><strong>I Agree and Authorize</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleCheckbox() {
+            const checkbox = document.getElementById('agreeCheckbox');
+            checkbox.classList.toggle('checked');
+        }
+    </script>
+</body>
+</html>
